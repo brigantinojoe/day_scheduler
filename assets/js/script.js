@@ -36,11 +36,4 @@ for (let i = 0; i < timeSlotArray.length; i++) {
 // TODO: Add setInterval function for the date. Weekday, Month Date (st/th)
 currentDay.text(moment().format('dddd, MMMM Do'));
 
-// TODO: Timeblocks should be colored based on past, present, and future
-    // Determine Current Time
-    // Determine time block time
-        // Maybe format the text in time block? format("HH")?
-    // Compare Current/Block Times
-    // Return background-color
-
 // Text should be added to local storage. When the user clicks the "Save" button.
